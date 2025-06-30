@@ -43,7 +43,9 @@ if st.button("Ejecutar simulación"):
     ax.set_ylabel("p (proporción con rasgo A)")
     ax.set_ylim(0, 1)
     st.pyplot(fig)
-
+    
     # Mostrar datos si se desea
     if st.checkbox("Mostrar tabla de resultados"):
         st.dataframe(output)
+
+st.write("Elaboración: Marcelo Cardillo, Prof. Adjunto de ELEMENTOS DE ANTROPOLOGÍA Y ARQUEOLOGÍA EVOLUTIVA, Facultad de Filosofía y Letras, Universidad de Buenos Aires.")
