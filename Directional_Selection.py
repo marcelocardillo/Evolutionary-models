@@ -59,4 +59,6 @@ if st.button("Ejecutar simulación"):
     st.write(f"**Valor final del rasgo:** {trait[-1]:.2f}")
     st.write(f"**Cambio total:** {trait[-1] - valor_inicial:.2f}")
     if ruido:
+
         st.write(f"**Intensidad del ruido:** {intensidad_ruido:.2f}")
+        st.write("Elaboracion: Marcelo Cardillo, Facultad de Filosofia y Letras, Universidad de Buenos Aires.") 
