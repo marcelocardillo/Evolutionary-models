@@ -8,8 +8,7 @@ import matplotlib.pyplot as plt
 st.title("Simulación de selección direccional sobre un rasgo cuantitativo")
 st.markdown("""
 Este modelo muestra cómo un rasgo cuantitativo cambia a lo largo de las generaciones 
-bajo selección direccional, con posibilidad de ajustar la **intensidad del ruido aleatorio** 
-(variabilidad ambiental o estocasticidad).
+bajo selección direccional, con posibilidad de incorporar ***ruido aleatorio*** (error en el mecanismo de transmisión cultural).
 ---
 """)
 
@@ -62,3 +61,4 @@ if st.button("Ejecutar simulación"):
 
         st.write(f"**Intensidad del ruido:** {intensidad_ruido:.2f}")
         st.write("Elaboracion: Marcelo Cardillo, Facultad de Filosofia y Letras, Universidad de Buenos Aires.") 
+
