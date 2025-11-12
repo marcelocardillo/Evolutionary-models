@@ -20,7 +20,8 @@ translations = {
         "show_table": "Mostrar tabla de resultados",
         "download_csv": "Descargar resultados como CSV",
         "csv_name": "simulacion_sesgada.csv",
-        "footer": "Elaboración: Marcelo Cardillo, Prof. Adjunto de ELEMENTOS DE ANTROPOLOGÍA Y ARQUEOLOGÍA EVOLUTIVA, Facultad de Filosofía y Letras, Universidad de Buenos Aires."
+        "footer_author": "Elaboración: Marcelo Cardillo, Prof. Adjunto de ELEMENTOS DE ANTROPOLOGÍA Y ARQUEOLOGÍA EVOLUTIVA, Facultad de Filosofía y Letras, Universidad de Buenos Aires.",
+        "footer_source": "Basada en código de Alex Mesoudi para R, disponible en: *ABMmodels_model04_indirect_bias.Rmd*"
     },
     "en": {
         "app_title": "Cultural Transmission Model with Indirect Bias",
@@ -37,7 +38,8 @@ translations = {
         "show_table": "Show results table",
         "download_csv": "Download results as CSV",
         "csv_name": "biased_simulation.csv",
-        "footer": "Developed by Marcelo Cardillo, Associate Professor, Department of Anthropology and Evolutionary Archaeology, University of Buenos Aires."
+        "footer_author": "Developed by Marcelo Cardillo, Associate Professor, Department of Anthropology and Evolutionary Archaeology, University of Buenos Aires.",
+        "footer_source": "Based on R code by Alex Mesoudi, available at: *ABMmodels_model04_indirect_bias.Rmd*"
     }
 }
 
@@ -106,5 +108,6 @@ if st.button(t["run_sim"]):
         mime='text/csv',
     )
 
-# Pie de página
-st.write(t["footer"])
+# === PIE DE PÁGINA ===
+st.markdown(f"**{t['footer_author']}**")
+st.markdown(t["footer_source"])
