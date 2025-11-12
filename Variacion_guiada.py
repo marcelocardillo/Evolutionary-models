@@ -22,7 +22,6 @@ translations = {
     },
     "en": {
         "app_title": "Unbiased Cultural Transmission Model",
-        "app_subtitle": "Simulation based on Mesoudi’s model",
         "N": "Population size (N)",
         "t_max": "Number of generations (tₘₐₓ)",
         "r_max": "Number of runs (rₘₐₓ)",
@@ -89,4 +88,5 @@ if st.button(t["run_sim"]):
 # === PIE DE PÁGINA ===
 st.markdown(f"**{t['footer_author']}**")
 st.markdown(t["footer_source"])
+
 
