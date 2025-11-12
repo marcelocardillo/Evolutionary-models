@@ -59,7 +59,6 @@ def unbiased_transmission(N, t_max, r_max):
 
 # === INTERFAZ DE USUARIO ===
 st.title(t["app_title"])
-st.markdown(t["app_subtitle"])
 
 # Parámetros de entrada
 N = st.slider(t["N"], min_value=10, max_value=500, value=100, step=10)
@@ -88,5 +87,3 @@ if st.button(t["run_sim"]):
 # === PIE DE PÁGINA ===
 st.markdown(f"**{t['footer_author']}**")
 st.markdown(t["footer_source"])
-
-
