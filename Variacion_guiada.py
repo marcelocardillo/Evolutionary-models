@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 translations = {
     "es": {
         "app_title": "Modelo de Transmisión Cultural No Sesgada",
-        "app_subtitle": "Simulación basada en el modelo de Mesoudi",
         "N": "Tamaño poblacional (N)",
         "t_max": "Cantidad de generaciones (tₘₐₓ)",
         "r_max": "Número de corridas (rₘₐₓ)",
@@ -90,3 +89,4 @@ if st.button(t["run_sim"]):
 # === PIE DE PÁGINA ===
 st.markdown(f"**{t['footer_author']}**")
 st.markdown(t["footer_source"])
+
