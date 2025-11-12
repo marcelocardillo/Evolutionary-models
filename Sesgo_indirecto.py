@@ -38,7 +38,7 @@ translations = {
         "show_table": "Show results table",
         "download_csv": "Download results as CSV",
         "csv_name": "biased_simulation.csv",
-        "footer_author": "Developed by Marcelo Cardillo, Associate Professor, Department of Anthropology and Evolutionary Archaeology, University of Buenos Aires.",
+        "footer_author": "Developed by Marcelo Cardillo, Associate Professor of Anthropology and Evolutionary Archaeology, University of Buenos Aires.",
         "footer_source": "Based on R code by Alex Mesoudi, available at: *ABMmodels_model04_indirect_bias.Rmd*"
     }
 }
@@ -111,3 +111,4 @@ if st.button(t["run_sim"]):
 # === PIE DE PÁGINA ===
 st.markdown(f"**{t['footer_author']}**")
 st.markdown(t["footer_source"])
+
